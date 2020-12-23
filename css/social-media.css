@@ -53,7 +53,7 @@
   line-height: 18px;
   padding: 2px 17px 6px;
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 50%;
   margin: 0;
   transform: translateX(-50%);
@@ -126,6 +126,12 @@
 }
 .floating-btn:focus {
   outline: none;
+  color: white;
+}
+.floating-btn:focus:hover {
+  outline: none;
+  color: white;
+  color: var(--social-panel);
 }
 .floating-text {
   background-color: var(--social-panel);
